@@ -167,6 +167,81 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-markdownPad2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/07/28/markdownPad2/">hownsa</a>
+    </h1>
+  
+
+        
+        <a href="/2017/07/28/markdownPad2/" class="archive-article-date">
+  	<time datetime="2017-07-28T14:00:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h5 id="1-安装后，软件打开报错，这里我用的是window10"><a href="#1-安装后，软件打开报错，这里我用的是window10" class="headerlink" title="1. 安装后，软件打开报错，这里我用的是window10"></a>1. 安装后，软件打开报错，这里我用的是window10</h5><p><img src="http://upload-images.jianshu.io/upload_images/3448952-57586c6cca283ca1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><hr>
+<blockquote>
+<p>　　 win键+R然后输入regedit打开注册表，HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\FipsAlgorithmPolicy将这个目录下的Enabled的值改为0）</p>
+</blockquote>
+<hr>
+<h5 id="2-然后上面问题解决了，又遇到新的问题那就是不能实时预览"><a href="#2-然后上面问题解决了，又遇到新的问题那就是不能实时预览" class="headerlink" title="2. 然后上面问题解决了，又遇到新的问题那就是不能实时预览"></a>2. 然后上面问题解决了，又遇到新的问题那就是不能实时预览</h5><p><img src="http://upload-images.jianshu.io/upload_images/3448952-efe4950329dae1d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><code>MarkdownPad</code> 的 FAQ 文档中给出了解决该问题的办法，亲测可用。详见：<a href="http://markdownpad.com/faq.html" target="_blank" rel="external">http://markdownpad.com/faq.html</a> 页面中搜索  This view has crashed</p>
+<p><strong>按照文档给出的建议：</strong></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/3448952-ba42f89a4eea6962.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<blockquote>
+<p>windows 10系统 需要下载 一个  awesomium_v1.6.6_sdk_win 这是一个 HTML UI ENGINE<br>下载地址 <a href="http://markdownpad.com/download/awesomium_v1.6.6_sdk_win.exe" target="_blank" rel="external">http://markdownpad.com/download/awesomium_v1.6.6_sdk_win.exe</a><br>下载安装后渲染正常。</p>
+</blockquote>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/07/28/markdownPad2/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Jsoup" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -187,13 +262,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h6 id="Jsoup"><a href="#Jsoup" class="headerlink" title="Jsoup"></a>Jsoup</h6><hr>
-<h4 id="Jsoup使用一个解析HTML文件的Java包。利用Jsoup，可以实现以下内容的抽取"><a href="#Jsoup使用一个解析HTML文件的Java包。利用Jsoup，可以实现以下内容的抽取" class="headerlink" title="Jsoup使用一个解析HTML文件的Java包。利用Jsoup，可以实现以下内容的抽取"></a>Jsoup使用一个解析HTML文件的Java包。利用Jsoup，可以实现以下内容的抽取</h4><ul>
-<li><h6 id="文本抽取"><a href="#文本抽取" class="headerlink" title="文本抽取"></a>文本抽取</h6></li>
-<li><h6 id="链接抽取"><a href="#链接抽取" class="headerlink" title="链接抽取"></a>链接抽取</h6></li>
-<li><h6 id="资源抽取-（图像和声音等资源）"><a href="#资源抽取-（图像和声音等资源）" class="headerlink" title="资源抽取 （图像和声音等资源）"></a>资源抽取 （图像和声音等资源）</h6></li>
-<li><h6 id="链接检查"><a href="#链接检查" class="headerlink" title="链接检查"></a>链接检查</h6></li>
-<li><h6 id="站点检查"><a href="#站点检查" class="headerlink" title="站点检查"></a>站点检查</h6></li>
+        <h5 id="Jsoup是一个解析HTML文件的Java包。利用Jsoup，可以实现以下内容的抽取"><a href="#Jsoup是一个解析HTML文件的Java包。利用Jsoup，可以实现以下内容的抽取" class="headerlink" title="Jsoup是一个解析HTML文件的Java包。利用Jsoup，可以实现以下内容的抽取"></a><strong>Jsoup是一个解析HTML文件的Java包。利用Jsoup，可以实现以下内容的抽取</strong></h5><ul>
+<li><strong>文本抽取。</strong>  作为一些垂直搜素引擎的检索内容放入数据库中</li>
+<li><strong>链接抽取。</strong>  比如可以从当前页面中抽取链接，放入TODO表中</li>
+<li><strong>资源抽取。</strong>  图像和声音等资源</li>
+<li><strong>链接检查。</strong>  保证链接是有用的</li>
+<li><strong>站点检查。</strong>  可以查看页面不同版本之间的差异（在爬虫过程中，防止重复抓取同一个页面）</li>
 </ul>
 <p><code>Jsoup.connect(String url)</code> 方法创建一个新链接。<code>get()</code>方法取得并解析一个HTML文件。如果发生错误，就抛出一个<code>IOException</code>。从一个URl解析HTML 的代码如下:<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">String url = <span class="string">"http://www.baidu.com"</span>;</div><div class="line">Document doc = Jsoup.connect(url).get(); <span class="comment">// 解析的结果就是一个文档对象</span></div></pre></td></tr></table></figure></p>
 <p>返回的<code>Document</code>对象中包含了<code>Elements</code> 和<code>TextNodes</code>。当然<code>Document</code>也可以认为是一个特殊的<code>Element</code>,因为<code>Document</code>本身就是继承自<code>Element</code>。</p>
@@ -201,11 +275,11 @@
 <h3 id="在Jsoup-中得到并处理响应状态码"><a href="#在Jsoup-中得到并处理响应状态码" class="headerlink" title="在Jsoup 中得到并处理响应状态码"></a>在Jsoup 中得到并处理响应状态码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Connection.Response response = Jsoup.connect(<span class="string">"http://www.baidu.com"</span>)</div><div class="line">		.userAgent(<span class="string">"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1042.0 Safari/535.21"</span>)</div><div class="line">		.timeout(<span class="number">10000</span>)</div><div class="line">		.execute();</div><div class="line"></div><div class="line"><span class="keyword">int</span> statusCode = response.statusCode();</div><div class="line"><span class="keyword">if</span>(statusCode == <span class="number">200</span>)&#123;</div><div class="line">	Document doc = connection.get();</div><div class="line">	Elements element = doc.select(<span class="string">"loc"</span>);</div><div class="line">	<span class="keyword">for</span>(Element urls :element)&#123;</div><div class="line">		System.out.println(urls.text());</div><div class="line">	&#125;</div><div class="line">&#125;<span class="keyword">else</span> &#123;</div><div class="line">	System.out.println(<span class="string">"recevied error code : "</span>+ statusCode);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h3 id="也可以直接从网友内容字符串得到文档对象"><a href="#也可以直接从网友内容字符串得到文档对象" class="headerlink" title="也可以直接从网友内容字符串得到文档对象"></a>也可以直接从网友内容字符串得到文档对象</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">String html = <span class="string">"&lt;html&gt;&lt;head&gt;&lt;title&gt;First parse&lt;/title&gt;&lt;/head&gt;"</span></div><div class="line">		+ <span class="string">"&lt;body&gt;&lt;p&gt;Parsed HTML into a doc.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"</span>;</div><div class="line">Document doc = Jsoup.parse(html);</div><div class="line">System.out.println(doc);</div></pre></td></tr></table></figure>
 <h3 id="如果本地硬盘中的一个文件缓存了HTML页面，可以加载这个文件并解析内容"><a href="#如果本地硬盘中的一个文件缓存了HTML页面，可以加载这个文件并解析内容" class="headerlink" title="如果本地硬盘中的一个文件缓存了HTML页面，可以加载这个文件并解析内容"></a>如果本地硬盘中的一个文件缓存了HTML页面，可以加载这个文件并解析内容</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">      File input = <span class="keyword">new</span> File(<span class="string">"d:index.html"</span>);</div><div class="line">Document doc2 = Jsoup.parse(input, <span class="string">"UTF-8"</span>, <span class="string">"http://www.baidu.com"</span>);</div><div class="line">System.out.println(doc2);</div></pre></td></tr></table></figure>
-<h5 id="Jsoup-connect下载网页没有多次重试功能，可以使用HTTPClient下载网页后把字符串传递给Jsoup解析"><a href="#Jsoup-connect下载网页没有多次重试功能，可以使用HTTPClient下载网页后把字符串传递给Jsoup解析" class="headerlink" title="Jsoup.connect下载网页没有多次重试功能，可以使用HTTPClient下载网页后把字符串传递给Jsoup解析"></a><code>Jsoup.connect</code>下载网页没有多次重试功能，可以使用<code>HTTPClient</code>下载网页后把字符串传递给Jsoup解析</h5><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Document doc = Jsoup.parse(html);</div></pre></td></tr></table></figure>
+<h3 id="Jsoup-connect下载网页没有多次重试功能，可以使用HTTPClient下载网页后把字符串传递给Jsoup解析"><a href="#Jsoup-connect下载网页没有多次重试功能，可以使用HTTPClient下载网页后把字符串传递给Jsoup解析" class="headerlink" title="Jsoup.connect下载网页没有多次重试功能，可以使用HTTPClient下载网页后把字符串传递给Jsoup解析"></a><code>Jsoup.connect</code>下载网页没有多次重试功能，可以使用<code>HTTPClient</code>下载网页后把字符串传递给Jsoup解析</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Document doc = Jsoup.parse(html);</div></pre></td></tr></table></figure>
 <h3 id="得到网页标题"><a href="#得到网页标题" class="headerlink" title="得到网页标题"></a>得到网页标题</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">	  Document doc3 = (Document) Jsoup.connect(<span class="string">"http://www.baidu.com"</span>).get();</div><div class="line">String title = doc3.title(); <span class="comment">//取出网页标题</span></div><div class="line">System.out.println(title);</div></pre></td></tr></table></figure>
 <p><code>Element.text()</code>方法输出节点对应的文本。例如:对于HTML文本<code>&lt;p&gt;Hello &lt;b&gt;there&lt;b/&gt; now!&lt;/p&gt;</code>。调用<code>p.text()</code>方法，返回 <code>“Hello there now!”</code><br><code>Element.html()</code> 返回这个节点代表的整个HTML，会保留换行符。<code>Element.outerHtml()</code>则会返回包含描述Element标签在内的所有HTML内容<br>Jsoup 支持使用DOM来查找、取出数据。可以使用CSS来选择器来查找、取出数据。例如选出带有href属性的a类型的标签</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Elements links = doc.select(<span class="string">"a[href]"</span>); <span class="comment">// 带有href属性a标签</span></div></pre></td></tr></table></figure>
-<h4 id="提取网页中的链接的完整例子"><a href="#提取网页中的链接的完整例子" class="headerlink" title="提取网页中的链接的完整例子"></a>提取网页中的链接的完整例子</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">String url = <span class="string">"http://www.baidu.com"</span>;</div><div class="line">Document doc5 = Jsoup.connect(url).get();</div><div class="line">Elements links = doc5.select(<span class="string">"a[href]"</span>);  <span class="comment">// 带有href属性的a标签</span></div><div class="line"><span class="keyword">for</span>(Element link : links)&#123; 					<span class="comment">// 遍历每个链接</span></div><div class="line">	String linkHref = link.attr(<span class="string">"href"</span>);    <span class="comment">// 得到href属性中的值，也就是url地址</span></div><div class="line">	String linkText = link.text();			<span class="comment">// 得到锚点上的文字说明</span></div><div class="line">	System.out.println(linkHref + <span class="string">" "</span> + linkText);  <span class="comment">// 输出</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="提取网页中的链接的完整例子"><a href="#提取网页中的链接的完整例子" class="headerlink" title="提取网页中的链接的完整例子"></a>提取网页中的链接的完整例子</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">String url = <span class="string">"http://www.baidu.com"</span>;</div><div class="line">Document doc5 = Jsoup.connect(url).get();</div><div class="line">Elements links = doc5.select(<span class="string">"a[href]"</span>);  <span class="comment">// 带有href属性的a标签</span></div><div class="line"><span class="keyword">for</span>(Element link : links)&#123; 					<span class="comment">// 遍历每个链接</span></div><div class="line">	String linkHref = link.attr(<span class="string">"href"</span>);    <span class="comment">// 得到href属性中的值，也就是url地址</span></div><div class="line">	String linkText = link.text();			<span class="comment">// 得到锚点上的文字说明</span></div><div class="line">	System.out.println(linkHref + <span class="string">" "</span> + linkText);  <span class="comment">// 输出</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>除了CSS选择器，Jsoup还提供了类似于<code>jQuery</code>的操作方法来取出和操作数据。<code>getElementById</code>和 <code>getElementsByTag</code> 方法跟<code>JavaScript</code>中方法名称是一样的，功能也完全一致，可以根据节点名称或者HTML元素的<code>ID</code>来获取对应的元素或者元素列表。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">File input = <span class="keyword">new</span> File(<span class="string">"D:index.html"</span>);</div><div class="line">Document doc = Jsoup.parse(input, <span class="string">"UTF-8"</span>, <span class="string">"http://www.baidu.com"</span>);</div><div class="line">Element content = doc.getElementById(<span class="string">"wrapper"</span>); <span class="comment">// 通过id名称来获取对应的元素</span></div><div class="line">Elements links = content.getElementsByTag(<span class="string">"a"</span>);  <span class="comment">// 通过类型获取元素列表</span></div><div class="line"></div><div class="line"><span class="keyword">for</span>(Element link : links)&#123; 					<span class="comment">// 遍历每个链接</span></div><div class="line">	String linkHref = link.attr(<span class="string">"href"</span>);    <span class="comment">// 得到href属性中的值，也就是url地址</span></div><div class="line">	String linkText = link.text();			<span class="comment">// 得到锚点上的文字说明</span></div><div class="line">	System.out.println(linkHref + <span class="string">" "</span> + linkText);  <span class="comment">// 输出</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>可以通过<code>class</code> 或者<code>ID</code>信息来选取元素。例如，选择商品名称所在的Div区域<code>&lt;div  class=&quot;p-name&quot;&gt;</code><br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Element content = document.select(<span class="string">"div.p-name"</span>).first();<span class="comment">// 通过class来选取元素</span></div></pre></td></tr></table></figure></p>
@@ -219,13 +293,17 @@
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">RemoveComments</span> </span>&#123;</div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</div><div class="line">		String h = <span class="string">"&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;"</span></div><div class="line">				+ <span class="string">"&lt;div&gt;&lt;!-- foo --&gt;&lt;p&gt;bar&lt;!-- baz--&gt;&lt;/div&gt;&lt;!-- qux--&gt;&lt;/body&gt;&lt;/html&gt;"</span>;</div><div class="line">		Document doc = Jsoup.parse(h);</div><div class="line">		System.out.println(doc);</div><div class="line">		removeComments(doc);</div><div class="line">		System.out.println(doc.html());</div><div class="line">	&#125;</div><div class="line">	<span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">removeComments</span><span class="params">(Node node)</span></span>&#123;</div><div class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span> ; i &lt; node.childNodes().size();)&#123;</div><div class="line">			System.out.println(node.childNodes().size());</div><div class="line">			Node child = node.childNode(i);</div><div class="line">			System.out.println(child.nodeName());</div><div class="line">			<span class="keyword">if</span>(child.nodeName().equals(<span class="string">"#comment"</span>))&#123;</div><div class="line">				child.remove();</div><div class="line">			&#125;<span class="keyword">else</span>&#123;</div><div class="line">				removeComments(child);</div><div class="line">				i++;</div><div class="line">			&#125;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>每个一个节点在DOM树中都有一个特定的位置。Node接口中有一些发现一个指定节点周边节点的方法<br>Jsoup 提供了图形化方式导航：<code>parent()</code>得到父亲节点，<code>children()</code>得到所有的孩子节点，`child(int index)得到指定的孩子节点。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">String html = <span class="string">"&lt;div id ="</span>demo<span class="string">"&gt;&lt;span style="</span>color:red;<span class="string">"&gt;&lt;h1&gt;hello world!&lt;/h1&gt;&lt;/span&gt;&lt;div id="</span>innerDiv<span class="string">"&gt; inner div&lt;/div&gt;&lt;/div&gt;"</span></div></pre></td></tr></table></figure></p>
+<hr>
 <blockquote>
 <p> NodeVisitor 接口用来遍历DOM树中的节点，这个接口提供了两个方法：<br>一个叫作head，另一个叫作tail。当第一次看到节点时，调用head方法，当这个节点所有的孩子都已经被访问过以后，调用tail方法。<br>例如，可以使用head创建一个节点的开始标签，用tail创建结束标签</p>
 </blockquote>
+<hr>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="comment">//		用一个NodeVisitor 对象构造一个NodeTraversor</span></div><div class="line">		NodeTraversor nd = <span class="keyword">new</span> NodeTraversor(<span class="keyword">new</span> NodeVisitor() &#123;</div><div class="line">			</div><div class="line">			<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">tail</span><span class="params">(Node node, <span class="keyword">int</span> depth)</span> </span>&#123;</div><div class="line">				<span class="comment">// TODO Auto-generated method stub</span></div><div class="line">				处理代码</div><div class="line">			&#125;</div><div class="line">			</div><div class="line">			<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">head</span><span class="params">(Node node, <span class="keyword">int</span> depth)</span> </span>&#123;</div><div class="line">				<span class="comment">// TODO Auto-generated method stub</span></div><div class="line">				</div><div class="line">			&#125;</div><div class="line">		&#125;);</div><div class="line">		nd.traverse(doc.body());</div></pre></td></tr></table></figure>
+<hr>
 <blockquote>
 <p> 可以使用<strong><code>HttpClient</code></strong>实现下载网页,而用Jsoup解析网页。集成<strong><code>Jsoup</code></strong>和<strong><code>HttpClient</code></strong>的<strong>example</strong> 如下</p>
 </blockquote>
+<hr>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">String url = <span class="string">"http://www.baidu.com"</span>;</div><div class="line"></div><div class="line"><span class="comment">// 创建httpget实例</span></div><div class="line">HttpGet get = <span class="keyword">new</span> HttpGet(url);</div><div class="line"></div><div class="line"><span class="comment">// 创建httpClient实例</span></div><div class="line">CloseableHttpClient httpclient = HttpClients.createDefault();</div><div class="line"><span class="comment">// 执行http get请求</span></div><div class="line">CloseableHttpResponse  response = httpclient.execute(get);</div><div class="line">HttpEntity entity = response.getEntity(); <span class="comment">//获取返回实体</span></div><div class="line">String  responseBody =  EntityUtils.toString(entity, <span class="string">"utf-8"</span>); <span class="comment">// 获取页面内容</span></div><div class="line"></div><div class="line">Document document = Jsoup.parse(responseBody);</div><div class="line">Elements links = document.select(<span class="string">"a[href]"</span>);</div><div class="line"><span class="keyword">for</span>(Element link :links)&#123;</div><div class="line">	String title = link.text();</div><div class="line">	System.out.println(title);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
       
 
